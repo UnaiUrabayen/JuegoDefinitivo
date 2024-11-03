@@ -2806,7 +2806,6 @@ Transform:
   - {fileID: 449199994}
   - {fileID: 34612262}
   - {fileID: 528325225}
-  - {fileID: 394053623}
   - {fileID: 2029837397}
   - {fileID: 609004763}
   - {fileID: 765776642}
@@ -3736,11 +3735,6 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 8927572568272310098, guid: 7b7c52128d7f34e4d8d78dcb9e065ad2, type: 3}
   m_PrefabInstance: {fileID: 371105819}
-  m_PrefabAsset: {fileID: 0}
---- !u!4 &394053623 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 3422030617926822211, guid: c0725f04b41a99e438574e73981c7039, type: 3}
-  m_PrefabInstance: {fileID: 1203015746}
   m_PrefabAsset: {fileID: 0}
 --- !u!114 &396516873 stripped
 MonoBehaviour:
@@ -6950,83 +6944,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8927572568272310098, guid: 7b7c52128d7f34e4d8d78dcb9e065ad2, type: 3}
   m_PrefabInstance: {fileID: 1202718894}
   m_PrefabAsset: {fileID: 0}
---- !u!1001 &1203015746
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 138213290}
-    m_Modifications:
-    - target: {fileID: 2310282142588289605, guid: c0725f04b41a99e438574e73981c7039, type: 3}
-      propertyPath: velocidad
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2310282142588289605, guid: c0725f04b41a99e438574e73981c7039, type: 3}
-      propertyPath: prefabBala
-      value: 
-      objectReference: {fileID: 326067012049891386, guid: 35b99dcc1ec240b46a6dac1627299bf9, type: 3}
-    - target: {fileID: 2310282142588289605, guid: c0725f04b41a99e438574e73981c7039, type: 3}
-      propertyPath: gameManager
-      value: 
-      objectReference: {fileID: 2002453165}
-    - target: {fileID: 2310282142588289605, guid: c0725f04b41a99e438574e73981c7039, type: 3}
-      propertyPath: distanciaMovimiento
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 3422030617926822211, guid: c0725f04b41a99e438574e73981c7039, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -16.043617
-      objectReference: {fileID: 0}
-    - target: {fileID: 3422030617926822211, guid: c0725f04b41a99e438574e73981c7039, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 8.41369
-      objectReference: {fileID: 0}
-    - target: {fileID: 3422030617926822211, guid: c0725f04b41a99e438574e73981c7039, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -14.514005
-      objectReference: {fileID: 0}
-    - target: {fileID: 3422030617926822211, guid: c0725f04b41a99e438574e73981c7039, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3422030617926822211, guid: c0725f04b41a99e438574e73981c7039, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3422030617926822211, guid: c0725f04b41a99e438574e73981c7039, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3422030617926822211, guid: c0725f04b41a99e438574e73981c7039, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3422030617926822211, guid: c0725f04b41a99e438574e73981c7039, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3422030617926822211, guid: c0725f04b41a99e438574e73981c7039, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3422030617926822211, guid: c0725f04b41a99e438574e73981c7039, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8176372987011429332, guid: c0725f04b41a99e438574e73981c7039, type: 3}
-      propertyPath: m_Name
-      value: Golem (2)
-      objectReference: {fileID: 0}
-    - target: {fileID: 8176372987011429332, guid: c0725f04b41a99e438574e73981c7039, type: 3}
-      propertyPath: m_TagString
-      value: Enemy
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: c0725f04b41a99e438574e73981c7039, type: 3}
 --- !u!1001 &1203622270
 PrefabInstance:
   m_ObjectHideFlags: 0
