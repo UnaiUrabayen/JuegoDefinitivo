@@ -20,6 +20,10 @@ public class PlayerController : MonoBehaviour
 
    private bool puedeMoverse = true;
 
+   public Aduiomanager aduiomanager;
+   public AudioClip sonidoSalto;
+
+
    void Start()
    {
       Physics2D.gravity = new Vector2(0, -15f);
@@ -46,6 +50,7 @@ public class PlayerController : MonoBehaviour
       if (hit.collider != null && Input.GetKeyDown(KeyCode.Space))
       {
          rigidbody2D.velocity = new Vector2(rigidbody2D.velocity.x, jumpForce);
+             Aduiomanager.Instance.ReproducirSonido(sonidoSalto);
       }
 
       animator.SetBool("isRunning", inputMovimiento != 0f);
@@ -77,7 +82,7 @@ public class PlayerController : MonoBehaviour
    {
       if (Input.GetKeyDown(KeyCode.Space) && puedeSaltar && estaEnSuelo())
       {
-         // Implementa lógica de salto si es necesario.
+    
       }
    }
 

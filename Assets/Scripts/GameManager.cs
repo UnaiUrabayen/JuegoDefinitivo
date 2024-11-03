@@ -16,6 +16,8 @@ public class GameManager : MonoBehaviour
     private GameObject botonPausa; // Botón de pausa
     private GameObject botonContinuar; // Botón de continuar
     private GameObject personaje; // Referencia al jugador
+      public AudioClip sonidoMuerte;
+    private AudioSource audioSource;
 
     void Start()
     {
@@ -110,7 +112,7 @@ void reiniciaVariables(){
             // Configurar los botones del menú de Game Over
             Button reiniciar = panelMuerte.transform.Find("volver").GetComponent<Button>();
             Button salir = panelMuerte.transform.Find("exit").GetComponent<Button>();
-
+            
             reiniciar.onClick.AddListener(ReiniciarEscena);
             salir.onClick.AddListener(Salirjeugo);
             corazon.gameObject.SetActive(false);

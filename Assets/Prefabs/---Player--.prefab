@@ -110,6 +110,8 @@ MonoBehaviour:
   suelo:
     serializedVersion: 2
     m_Bits: 0
+  aduiomanager: {fileID: 0}
+  sonidoSalto: {fileID: 8300000, guid: 6f6d2e32296d01541a2e87c89a796715, type: 3}
 --- !u!50 &2421870714209185832
 Rigidbody2D:
   serializedVersion: 4

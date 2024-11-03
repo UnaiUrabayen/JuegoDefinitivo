@@ -166,4 +166,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   valor: 1
+  sonidoMoneda: {fileID: 8300000, guid: ec66b92974e05504e8b1f91430bfd4bd, type: 3}
   gameManager: {fileID: 0}

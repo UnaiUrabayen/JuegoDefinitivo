@@ -144,6 +144,10 @@ PrefabInstance:
       propertyPath: gameManager
       value: 
       objectReference: {fileID: 2002453165}
+    - target: {fileID: 6372105822857596682, guid: 7b7c52128d7f34e4d8d78dcb9e065ad2, type: 3}
+      propertyPath: sonidoMoneda
+      value: 
+      objectReference: {fileID: 8300000, guid: ec66b92974e05504e8b1f91430bfd4bd, type: 3}
     - target: {fileID: 6973366075036188343, guid: 7b7c52128d7f34e4d8d78dcb9e065ad2, type: 3}
       propertyPath: m_Name
       value: moneda (7)
@@ -1256,6 +1260,134 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
+--- !u!1 &97342141
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 97342142}
+  - component: {fileID: 97342143}
+  m_Layer: 0
+  m_Name: --- Music manager ---
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &97342142
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 97342141}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 31.686787, y: 5.694038, z: -0.06648714}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!82 &97342143
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 97342141}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: bdc9bd9d068c97647801fcf67fbede6a, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 0.699
+  m_Pitch: 1.76
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 118
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!4 &111186791 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8927572568272310098, guid: 7b7c52128d7f34e4d8d78dcb9e065ad2, type: 3}
@@ -1373,6 +1505,10 @@ PrefabInstance:
       propertyPath: gameManager
       value: 
       objectReference: {fileID: 2002453165}
+    - target: {fileID: 6372105822857596682, guid: 7b7c52128d7f34e4d8d78dcb9e065ad2, type: 3}
+      propertyPath: sonidoMoneda
+      value: 
+      objectReference: {fileID: 8300000, guid: ec66b92974e05504e8b1f91430bfd4bd, type: 3}
     - target: {fileID: 6973366075036188343, guid: 7b7c52128d7f34e4d8d78dcb9e065ad2, type: 3}
       propertyPath: m_Name
       value: moneda (4)
@@ -1434,6 +1570,10 @@ PrefabInstance:
       propertyPath: gameManager
       value: 
       objectReference: {fileID: 2002453165}
+    - target: {fileID: 6372105822857596682, guid: 7b7c52128d7f34e4d8d78dcb9e065ad2, type: 3}
+      propertyPath: sonidoMoneda
+      value: 
+      objectReference: {fileID: 8300000, guid: ec66b92974e05504e8b1f91430bfd4bd, type: 3}
     - target: {fileID: 6973366075036188343, guid: 7b7c52128d7f34e4d8d78dcb9e065ad2, type: 3}
       propertyPath: m_Name
       value: moneda
@@ -1495,6 +1635,10 @@ PrefabInstance:
       propertyPath: gameManager
       value: 
       objectReference: {fileID: 2002453165}
+    - target: {fileID: 6372105822857596682, guid: 7b7c52128d7f34e4d8d78dcb9e065ad2, type: 3}
+      propertyPath: sonidoMoneda
+      value: 
+      objectReference: {fileID: 8300000, guid: ec66b92974e05504e8b1f91430bfd4bd, type: 3}
     - target: {fileID: 6973366075036188343, guid: 7b7c52128d7f34e4d8d78dcb9e065ad2, type: 3}
       propertyPath: m_Name
       value: moneda (8)
@@ -1561,6 +1705,10 @@ PrefabInstance:
       propertyPath: gameManager
       value: 
       objectReference: {fileID: 2002453165}
+    - target: {fileID: 6372105822857596682, guid: 7b7c52128d7f34e4d8d78dcb9e065ad2, type: 3}
+      propertyPath: sonidoMoneda
+      value: 
+      objectReference: {fileID: 8300000, guid: ec66b92974e05504e8b1f91430bfd4bd, type: 3}
     - target: {fileID: 6973366075036188343, guid: 7b7c52128d7f34e4d8d78dcb9e065ad2, type: 3}
       propertyPath: m_Name
       value: moneda (9)
@@ -1691,6 +1839,10 @@ PrefabInstance:
       propertyPath: gameManager
       value: 
       objectReference: {fileID: 2002453165}
+    - target: {fileID: 6372105822857596682, guid: 7b7c52128d7f34e4d8d78dcb9e065ad2, type: 3}
+      propertyPath: sonidoMoneda
+      value: 
+      objectReference: {fileID: 8300000, guid: ec66b92974e05504e8b1f91430bfd4bd, type: 3}
     - target: {fileID: 6973366075036188343, guid: 7b7c52128d7f34e4d8d78dcb9e065ad2, type: 3}
       propertyPath: m_Name
       value: moneda (5)
@@ -1837,6 +1989,10 @@ PrefabInstance:
       propertyPath: gameManager
       value: 
       objectReference: {fileID: 2002453165}
+    - target: {fileID: 6372105822857596682, guid: 7b7c52128d7f34e4d8d78dcb9e065ad2, type: 3}
+      propertyPath: sonidoMoneda
+      value: 
+      objectReference: {fileID: 8300000, guid: ec66b92974e05504e8b1f91430bfd4bd, type: 3}
     - target: {fileID: 6973366075036188343, guid: 7b7c52128d7f34e4d8d78dcb9e065ad2, type: 3}
       propertyPath: m_Name
       value: moneda
@@ -1898,6 +2054,10 @@ PrefabInstance:
       propertyPath: gameManager
       value: 
       objectReference: {fileID: 2002453165}
+    - target: {fileID: 6372105822857596682, guid: 7b7c52128d7f34e4d8d78dcb9e065ad2, type: 3}
+      propertyPath: sonidoMoneda
+      value: 
+      objectReference: {fileID: 8300000, guid: ec66b92974e05504e8b1f91430bfd4bd, type: 3}
     - target: {fileID: 6973366075036188343, guid: 7b7c52128d7f34e4d8d78dcb9e065ad2, type: 3}
       propertyPath: m_Name
       value: moneda (1)
@@ -2162,6 +2322,148 @@ MonoBehaviour:
   m_CameraActivatedEvent:
     m_PersistentCalls:
       m_Calls: []
+--- !u!1 &588029665
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 588029668}
+  - component: {fileID: 588029667}
+  - component: {fileID: 588029666}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &588029666
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 588029665}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a0669f738814ad4189c88fedafe2ae4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  audioClip: {fileID: 8300000, guid: 91bdd3af3f6865240a804879a390ed04, type: 3}
+--- !u!82 &588029667
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 588029665}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 91bdd3af3f6865240a804879a390ed04, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!4 &588029668
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 588029665}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 31.686787, y: 5.694038, z: -0.06648714}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &595845077
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2405,6 +2707,10 @@ PrefabInstance:
       propertyPath: gameManager
       value: 
       objectReference: {fileID: 2002453165}
+    - target: {fileID: 6372105822857596682, guid: 7b7c52128d7f34e4d8d78dcb9e065ad2, type: 3}
+      propertyPath: sonidoMoneda
+      value: 
+      objectReference: {fileID: 8300000, guid: ec66b92974e05504e8b1f91430bfd4bd, type: 3}
     - target: {fileID: 6973366075036188343, guid: 7b7c52128d7f34e4d8d78dcb9e065ad2, type: 3}
       propertyPath: m_Name
       value: moneda (4)
@@ -2526,6 +2832,10 @@ PrefabInstance:
       propertyPath: gameManager
       value: 
       objectReference: {fileID: 2002453165}
+    - target: {fileID: 6372105822857596682, guid: 7b7c52128d7f34e4d8d78dcb9e065ad2, type: 3}
+      propertyPath: sonidoMoneda
+      value: 
+      objectReference: {fileID: 8300000, guid: ec66b92974e05504e8b1f91430bfd4bd, type: 3}
     - target: {fileID: 6973366075036188343, guid: 7b7c52128d7f34e4d8d78dcb9e065ad2, type: 3}
       propertyPath: m_Name
       value: moneda
@@ -2807,6 +3117,10 @@ PrefabInstance:
       propertyPath: gameManager
       value: 
       objectReference: {fileID: 2002453165}
+    - target: {fileID: 6372105822857596682, guid: 7b7c52128d7f34e4d8d78dcb9e065ad2, type: 3}
+      propertyPath: sonidoMoneda
+      value: 
+      objectReference: {fileID: 8300000, guid: ec66b92974e05504e8b1f91430bfd4bd, type: 3}
     - target: {fileID: 6973366075036188343, guid: 7b7c52128d7f34e4d8d78dcb9e065ad2, type: 3}
       propertyPath: m_Name
       value: moneda (16)
@@ -2918,6 +3232,10 @@ PrefabInstance:
       propertyPath: gameManager
       value: 
       objectReference: {fileID: 2002453165}
+    - target: {fileID: 6372105822857596682, guid: 7b7c52128d7f34e4d8d78dcb9e065ad2, type: 3}
+      propertyPath: sonidoMoneda
+      value: 
+      objectReference: {fileID: 8300000, guid: ec66b92974e05504e8b1f91430bfd4bd, type: 3}
     - target: {fileID: 6973366075036188343, guid: 7b7c52128d7f34e4d8d78dcb9e065ad2, type: 3}
       propertyPath: m_Name
       value: moneda (1)
@@ -3084,6 +3402,10 @@ PrefabInstance:
       propertyPath: gameManager
       value: 
       objectReference: {fileID: 2002453165}
+    - target: {fileID: 6372105822857596682, guid: 7b7c52128d7f34e4d8d78dcb9e065ad2, type: 3}
+      propertyPath: sonidoMoneda
+      value: 
+      objectReference: {fileID: 8300000, guid: ec66b92974e05504e8b1f91430bfd4bd, type: 3}
     - target: {fileID: 6973366075036188343, guid: 7b7c52128d7f34e4d8d78dcb9e065ad2, type: 3}
       propertyPath: m_Name
       value: moneda (5)
@@ -3219,6 +3541,10 @@ PrefabInstance:
       propertyPath: gameManager
       value: 
       objectReference: {fileID: 2002453165}
+    - target: {fileID: 6372105822857596682, guid: 7b7c52128d7f34e4d8d78dcb9e065ad2, type: 3}
+      propertyPath: sonidoMoneda
+      value: 
+      objectReference: {fileID: 8300000, guid: ec66b92974e05504e8b1f91430bfd4bd, type: 3}
     - target: {fileID: 6973366075036188343, guid: 7b7c52128d7f34e4d8d78dcb9e065ad2, type: 3}
       propertyPath: m_Name
       value: moneda (6)
@@ -3280,6 +3606,10 @@ PrefabInstance:
       propertyPath: gameManager
       value: 
       objectReference: {fileID: 2002453165}
+    - target: {fileID: 6372105822857596682, guid: 7b7c52128d7f34e4d8d78dcb9e065ad2, type: 3}
+      propertyPath: sonidoMoneda
+      value: 
+      objectReference: {fileID: 8300000, guid: ec66b92974e05504e8b1f91430bfd4bd, type: 3}
     - target: {fileID: 6973366075036188343, guid: 7b7c52128d7f34e4d8d78dcb9e065ad2, type: 3}
       propertyPath: m_Name
       value: moneda (2)
@@ -3351,6 +3681,10 @@ PrefabInstance:
       propertyPath: gameManager
       value: 
       objectReference: {fileID: 2002453165}
+    - target: {fileID: 6372105822857596682, guid: 7b7c52128d7f34e4d8d78dcb9e065ad2, type: 3}
+      propertyPath: sonidoMoneda
+      value: 
+      objectReference: {fileID: 8300000, guid: ec66b92974e05504e8b1f91430bfd4bd, type: 3}
     - target: {fileID: 6973366075036188343, guid: 7b7c52128d7f34e4d8d78dcb9e065ad2, type: 3}
       propertyPath: m_Name
       value: moneda (1)
@@ -3412,6 +3746,10 @@ PrefabInstance:
       propertyPath: gameManager
       value: 
       objectReference: {fileID: 2002453165}
+    - target: {fileID: 6372105822857596682, guid: 7b7c52128d7f34e4d8d78dcb9e065ad2, type: 3}
+      propertyPath: sonidoMoneda
+      value: 
+      objectReference: {fileID: 8300000, guid: ec66b92974e05504e8b1f91430bfd4bd, type: 3}
     - target: {fileID: 6973366075036188343, guid: 7b7c52128d7f34e4d8d78dcb9e065ad2, type: 3}
       propertyPath: m_Name
       value: moneda (11)
@@ -3517,6 +3855,10 @@ PrefabInstance:
       propertyPath: gameManager
       value: 
       objectReference: {fileID: 2002453165}
+    - target: {fileID: 6372105822857596682, guid: 7b7c52128d7f34e4d8d78dcb9e065ad2, type: 3}
+      propertyPath: sonidoMoneda
+      value: 
+      objectReference: {fileID: 8300000, guid: ec66b92974e05504e8b1f91430bfd4bd, type: 3}
     - target: {fileID: 6973366075036188343, guid: 7b7c52128d7f34e4d8d78dcb9e065ad2, type: 3}
       propertyPath: m_Name
       value: moneda (2)
@@ -3583,6 +3925,10 @@ PrefabInstance:
       propertyPath: gameManager
       value: 
       objectReference: {fileID: 2002453165}
+    - target: {fileID: 6372105822857596682, guid: 7b7c52128d7f34e4d8d78dcb9e065ad2, type: 3}
+      propertyPath: sonidoMoneda
+      value: 
+      objectReference: {fileID: 8300000, guid: ec66b92974e05504e8b1f91430bfd4bd, type: 3}
     - target: {fileID: 6973366075036188343, guid: 7b7c52128d7f34e4d8d78dcb9e065ad2, type: 3}
       propertyPath: m_Name
       value: moneda
@@ -3649,6 +3995,10 @@ PrefabInstance:
       propertyPath: gameManager
       value: 
       objectReference: {fileID: 2002453165}
+    - target: {fileID: 6372105822857596682, guid: 7b7c52128d7f34e4d8d78dcb9e065ad2, type: 3}
+      propertyPath: sonidoMoneda
+      value: 
+      objectReference: {fileID: 8300000, guid: ec66b92974e05504e8b1f91430bfd4bd, type: 3}
     - target: {fileID: 6973366075036188343, guid: 7b7c52128d7f34e4d8d78dcb9e065ad2, type: 3}
       propertyPath: m_Name
       value: moneda (15)
@@ -3710,6 +4060,10 @@ PrefabInstance:
       propertyPath: gameManager
       value: 
       objectReference: {fileID: 2002453165}
+    - target: {fileID: 6372105822857596682, guid: 7b7c52128d7f34e4d8d78dcb9e065ad2, type: 3}
+      propertyPath: sonidoMoneda
+      value: 
+      objectReference: {fileID: 8300000, guid: ec66b92974e05504e8b1f91430bfd4bd, type: 3}
     - target: {fileID: 6973366075036188343, guid: 7b7c52128d7f34e4d8d78dcb9e065ad2, type: 3}
       propertyPath: m_Name
       value: moneda (13)
@@ -3781,6 +4135,10 @@ PrefabInstance:
       propertyPath: gameManager
       value: 
       objectReference: {fileID: 2002453165}
+    - target: {fileID: 6372105822857596682, guid: 7b7c52128d7f34e4d8d78dcb9e065ad2, type: 3}
+      propertyPath: sonidoMoneda
+      value: 
+      objectReference: {fileID: 8300000, guid: ec66b92974e05504e8b1f91430bfd4bd, type: 3}
     - target: {fileID: 6973366075036188343, guid: 7b7c52128d7f34e4d8d78dcb9e065ad2, type: 3}
       propertyPath: m_Name
       value: moneda (14)
@@ -3842,6 +4200,10 @@ PrefabInstance:
       propertyPath: gameManager
       value: 
       objectReference: {fileID: 2002453165}
+    - target: {fileID: 6372105822857596682, guid: 7b7c52128d7f34e4d8d78dcb9e065ad2, type: 3}
+      propertyPath: sonidoMoneda
+      value: 
+      objectReference: {fileID: 8300000, guid: ec66b92974e05504e8b1f91430bfd4bd, type: 3}
     - target: {fileID: 6973366075036188343, guid: 7b7c52128d7f34e4d8d78dcb9e065ad2, type: 3}
       propertyPath: m_Name
       value: moneda (12)
@@ -3903,6 +4265,10 @@ PrefabInstance:
       propertyPath: gameManager
       value: 
       objectReference: {fileID: 2002453165}
+    - target: {fileID: 6372105822857596682, guid: 7b7c52128d7f34e4d8d78dcb9e065ad2, type: 3}
+      propertyPath: sonidoMoneda
+      value: 
+      objectReference: {fileID: 8300000, guid: ec66b92974e05504e8b1f91430bfd4bd, type: 3}
     - target: {fileID: 6973366075036188343, guid: 7b7c52128d7f34e4d8d78dcb9e065ad2, type: 3}
       propertyPath: m_Name
       value: moneda (3)
@@ -3969,6 +4335,10 @@ PrefabInstance:
       propertyPath: gameManager
       value: 
       objectReference: {fileID: 2002453165}
+    - target: {fileID: 6372105822857596682, guid: 7b7c52128d7f34e4d8d78dcb9e065ad2, type: 3}
+      propertyPath: sonidoMoneda
+      value: 
+      objectReference: {fileID: 8300000, guid: ec66b92974e05504e8b1f91430bfd4bd, type: 3}
     - target: {fileID: 6973366075036188343, guid: 7b7c52128d7f34e4d8d78dcb9e065ad2, type: 3}
       propertyPath: m_Name
       value: moneda (6)
@@ -4035,6 +4405,10 @@ PrefabInstance:
       propertyPath: gameManager
       value: 
       objectReference: {fileID: 2002453165}
+    - target: {fileID: 6372105822857596682, guid: 7b7c52128d7f34e4d8d78dcb9e065ad2, type: 3}
+      propertyPath: sonidoMoneda
+      value: 
+      objectReference: {fileID: 8300000, guid: ec66b92974e05504e8b1f91430bfd4bd, type: 3}
     - target: {fileID: 6973366075036188343, guid: 7b7c52128d7f34e4d8d78dcb9e065ad2, type: 3}
       propertyPath: m_Name
       value: moneda (7)
@@ -4164,6 +4538,10 @@ PrefabInstance:
       propertyPath: gameManager
       value: 
       objectReference: {fileID: 2002453165}
+    - target: {fileID: 6372105822857596682, guid: 7b7c52128d7f34e4d8d78dcb9e065ad2, type: 3}
+      propertyPath: sonidoMoneda
+      value: 
+      objectReference: {fileID: 8300000, guid: ec66b92974e05504e8b1f91430bfd4bd, type: 3}
     - target: {fileID: 6973366075036188343, guid: 7b7c52128d7f34e4d8d78dcb9e065ad2, type: 3}
       propertyPath: m_Name
       value: moneda (1)
@@ -4383,6 +4761,10 @@ PrefabInstance:
       propertyPath: gameManager
       value: 
       objectReference: {fileID: 2002453165}
+    - target: {fileID: 6372105822857596682, guid: 7b7c52128d7f34e4d8d78dcb9e065ad2, type: 3}
+      propertyPath: sonidoMoneda
+      value: 
+      objectReference: {fileID: 8300000, guid: ec66b92974e05504e8b1f91430bfd4bd, type: 3}
     - target: {fileID: 6973366075036188343, guid: 7b7c52128d7f34e4d8d78dcb9e065ad2, type: 3}
       propertyPath: m_Name
       value: moneda (10)
@@ -13729,6 +14111,10 @@ PrefabInstance:
       propertyPath: gameManager
       value: 
       objectReference: {fileID: 2002453165}
+    - target: {fileID: 6372105822857596682, guid: 7b7c52128d7f34e4d8d78dcb9e065ad2, type: 3}
+      propertyPath: sonidoMoneda
+      value: 
+      objectReference: {fileID: 8300000, guid: ec66b92974e05504e8b1f91430bfd4bd, type: 3}
     - target: {fileID: 6973366075036188343, guid: 7b7c52128d7f34e4d8d78dcb9e065ad2, type: 3}
       propertyPath: m_Name
       value: moneda (3)
@@ -14050,6 +14436,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: ---Player--
       objectReference: {fileID: 0}
+    - target: {fileID: 3617896936103702619, guid: 1514461562a41cc4aaecbfd7ce13ba7c, type: 3}
+      propertyPath: sonidoSalto
+      value: 
+      objectReference: {fileID: 8300000, guid: 6f6d2e32296d01541a2e87c89a796715, type: 3}
+    - target: {fileID: 3617896936103702619, guid: 1514461562a41cc4aaecbfd7ce13ba7c, type: 3}
+      propertyPath: aduiomanager
+      value: 
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -14205,6 +14599,10 @@ PrefabInstance:
       propertyPath: cantVidas
       value: 
       objectReference: {fileID: 607249575}
+    - target: {fileID: 1448273838247671505, guid: c9867cf8b118eb84aa99220c4ae52674, type: 3}
+      propertyPath: sonidoMuerte
+      value: 
+      objectReference: {fileID: 8300000, guid: c028dbc0ac11ba84da2dedd6430ff713, type: 3}
     - target: {fileID: 5412964435992780426, guid: c9867cf8b118eb84aa99220c4ae52674, type: 3}
       propertyPath: m_LocalPosition.x
       value: -6.6856594
@@ -14270,3 +14668,5 @@ SceneRoots:
   - {fileID: 472369516}
   - {fileID: 138213290}
   - {fileID: 2133702029937621426}
+  - {fileID: 97342142}
+  - {fileID: 588029668}

@@ -3,7 +3,9 @@ guid: 59a152936d4785c4286edd46562c43ff
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - sonidoMoneda: {fileID: 8300000, guid: 84595b7ec5b1f0d4aab73c93dadaf3c7, type: 3}
+  - gameManager: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
