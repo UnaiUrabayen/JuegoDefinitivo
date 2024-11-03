@@ -50,10 +50,10 @@ public class GameManager : MonoBehaviour
             GameData.monedas -= 10;
             ActualizarCorazon();
             ActualizarTextoVidas();
-            if (GameData.vidasJugador >= 5)
+            if (GameData.vidasJugador >= 6)
             {
                 CambiarEscena("Fin");
-                return; // Termina el método para evitar más incrementos
+              
             }
         }
     }
